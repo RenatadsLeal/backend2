@@ -27,4 +27,4 @@ spring:
         - id: movieRoute
           uri: lb://MOVIE
           predicates:
-           - Path=/movie/**
+           - Path=/movies/**
