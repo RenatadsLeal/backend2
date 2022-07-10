@@ -28,3 +28,7 @@ spring:
           uri: lb://MOVIE
           predicates:
            - Path=/movies/**
+        - id: serieRoute
+          uri: lb://SERIE
+          predicates:
+           - Path=/series/**
